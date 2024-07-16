@@ -14,17 +14,40 @@
 
     <div style="max-width: 700px; margin: 0 auto; padding: 20px; background-color: #f2f2f2; border-radius: 10px; box-shadow: 0 0 10px #888888;">
         <p>一合一 二合一 三合一 四合一 五合一等等欢迎选购有意请点击下面宜兴纤维袋官网链接，了解更多产品详情，或直接联系我们预约试用，我们将竭诚为您服务！</p> 
-        <p></p>
-        <p></p>
-        <p></p>
-        <p></p>
-    </div>
+        
+            <script>
+    function toggleSpecAndPrice(elementId) {
+      var specAndPriceDiv = document.getElementById(elementId);
+      if (specAndPriceDiv.style.display === "none") {
+        specAndPriceDiv.style.display = "block";
+      } else {
+        specAndPriceDiv.style.display = "none";
+      }
+    }
+</script>
+
+<div id="oneToOne" style="display: none; max-width: 700px; margin: 0 auto; padding: 20px; background-color: #f2f2f2; border-radius: 10px; box-shadow: 0 0 10px #888888;">
+  <p>规格：100*110</p>
+  <p>价格：1块一个</p>
+</div>
+<div id="twoToOne" style="display: none; max-width: 700px; margin: 0 auto; padding: 20px; background-color: #f2f2f2; border-radius: 10px; box-shadow: 0 0 10px #888888;">
+  <p>规格：200*220</p>
+  <p>价格：2块一个</p>
+</div>
+<p onclick="toggleSpecAndPrice('oneToOne')">一合一</p>
+<p onclick="toggleSpecAndPrice('twoToOne')">二合一</p>
+
+
+          
+         
+          
+    
     <div style="
     background-color: #f2f2f2;
     text-align: center;
     padding: 20px;">
     <p>宜兴纤维袋独有网站</p>
-    <a href="https://www.yixiang.com.cn/product/10">连接到宜兴官网</a>
+    <a href="https://ybking6.github.io/yanmmmm/">连接到宜兴官网</a>
     </div>
 </body>
 </html>
